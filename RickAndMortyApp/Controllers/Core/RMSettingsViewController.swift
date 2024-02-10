@@ -7,6 +7,7 @@
 
 import UIKit
 
+/// ViewController for viewing settings
 final class RMSettingsViewController: UIViewController {
 
     override func viewDidLoad() {

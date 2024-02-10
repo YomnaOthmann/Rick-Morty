@@ -8,12 +8,11 @@
 import Foundation
 
 struct RMLocation : Codable{
-    var lat : Double
-    var long : Double
-    
-    
-    enum CodingKeys: String, CodingKey{
-        case lat, long
-    }
-    
+    let id: Int
+    let name: String
+    let type: String
+    let dimension: String
+    let residents: [String]
+    let url: String
+    let created: String
 }

@@ -17,6 +17,10 @@
 		04601DBB2B780964009CA8B5 /* RMApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DBA2B780964009CA8B5 /* RMApiService.swift */; };
 		04601DBD2B78098B009CA8B5 /* RMRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DBC2B78098B009CA8B5 /* RMRequest.swift */; };
 		04601DBF2B780A9E009CA8B5 /* RMEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DBE2B780A9E009CA8B5 /* RMEndPoint.swift */; };
+		04601DC12B78137C009CA8B5 /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DC02B78137C009CA8B5 /* RMOrigin.swift */; };
+		04601DC32B781442009CA8B5 /* RMSingleLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DC22B781442009CA8B5 /* RMSingleLocation.swift */; };
+		04601DC52B78163C009CA8B5 /* RMCharacterStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DC42B78163C009CA8B5 /* RMCharacterStatus.swift */; };
+		04601DC72B781658009CA8B5 /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04601DC62B781658009CA8B5 /* RMCharacterGender.swift */; };
 		049014BF2B5CCAC0002BCCDD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049014BE2B5CCAC0002BCCDD /* AppDelegate.swift */; };
 		049014C12B5CCAC0002BCCDD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049014C02B5CCAC0002BCCDD /* SceneDelegate.swift */; };
 		049014C32B5CCAC0002BCCDD /* RMTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049014C22B5CCAC0002BCCDD /* RMTabBarController.swift */; };
@@ -35,6 +39,10 @@
 		04601DBA2B780964009CA8B5 /* RMApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMApiService.swift; sourceTree = "<group>"; };
 		04601DBC2B78098B009CA8B5 /* RMRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMRequest.swift; sourceTree = "<group>"; };
 		04601DBE2B780A9E009CA8B5 /* RMEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMEndPoint.swift; sourceTree = "<group>"; };
+		04601DC02B78137C009CA8B5 /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		04601DC22B781442009CA8B5 /* RMSingleLocation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocation.swift; sourceTree = "<group>"; };
+		04601DC42B78163C009CA8B5 /* RMCharacterStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterStatus.swift; sourceTree = "<group>"; };
+		04601DC62B781658009CA8B5 /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		049014BB2B5CCAC0002BCCDD /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		049014BE2B5CCAC0002BCCDD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		049014C02B5CCAC0002BCCDD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +120,10 @@
 				042CC9612B65AEF300DB506E /* RMLocation.swift */,
 				042CC9632B65AF1A00DB506E /* RMCharacter.swift */,
 				042CC9652B65AF2D00DB506E /* RMEpisode.swift */,
+				04601DC02B78137C009CA8B5 /* RMOrigin.swift */,
+				04601DC22B781442009CA8B5 /* RMSingleLocation.swift */,
+				04601DC42B78163C009CA8B5 /* RMCharacterStatus.swift */,
+				04601DC62B781658009CA8B5 /* RMCharacterGender.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -228,6 +240,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04601DC12B78137C009CA8B5 /* RMOrigin.swift in Sources */,
+				04601DC32B781442009CA8B5 /* RMSingleLocation.swift in Sources */,
+				04601DC52B78163C009CA8B5 /* RMCharacterStatus.swift in Sources */,
+				04601DC72B781658009CA8B5 /* RMCharacterGender.swift in Sources */,
 				04601DBB2B780964009CA8B5 /* RMApiService.swift in Sources */,
 				042CC96D2B65B02900DB506E /* RMLocationViewController.swift in Sources */,
 				049014C32B5CCAC0002BCCDD /* RMTabBarController.swift in Sources */,

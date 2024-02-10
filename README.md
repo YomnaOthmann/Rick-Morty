@@ -1,4 +1,4 @@
-# Rick-Morty
+# Rick&Morty
 
 This is a full featured iOS app based on Rick&Morty API.
 - Written in swift

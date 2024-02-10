@@ -18,8 +18,13 @@ final class RMApiService{
     /// Sends Api reauest
     /// - Parameters:
     ///   - request: request instance  
+    ///   - type: The type of returned object 
     ///   - completion: callback with data or error
-    func execute(_ request:RMRequest, completion: @escaping()->Void){
+    func execute<T:Codable>(
+        _ request:RMRequest,
+        expecting type : T.Type,
+        completion: @escaping(Result<T,Error>)->Void
+    ){
         
     }
 }
